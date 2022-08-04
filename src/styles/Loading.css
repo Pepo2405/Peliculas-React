@@ -1,0 +1,15 @@
+.loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    color: #553739;
+}
+.Icono{
+    animation: spinner 2.5s linear infinite;
+}
+
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}
