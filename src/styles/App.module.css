@@ -2,7 +2,8 @@
   margin: 0%;
 }
 .header{
-
+  display: flex;
+  justify-content: center;
   background-color: #553739;
   height: 8rem;
 
@@ -10,25 +11,31 @@
  
 
 h1{
-  top: 1.8%;
+  /* top: 1.8%;
   left: 50%;
   margin-left: -164.41400px;
+  position: absolute;
+  color: rgb(0, 0, 0); */
   font-size: 5rem;
   position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -2%);
+  
 }
 .border{
-  color: black;
+  color: rgb(255, 255, 255);
   text-shadow: 
-  -1px -1px 0 white,
-  -1px 1px 0 white,
-  1px -1px 0 white,
-  1px 1px 0 white;
+  -1px -1px 0 rgb(0, 0, 0),
+  -1px 1px 0 rgb(0, 0, 0),
+  1px -1px 0 rgb(0, 0, 0),
+  1px 1px 0 rgb(0, 0, 0);
 
 }
 
 .wave{
   color: #d24f62;
-  animation: wave 3s ease-in-out infinite;
+  animation: wave 4s ease-in-out infinite;
 
 }
 
@@ -61,5 +68,5 @@ h1{
   }
 }
 
-a{color: white;
+a{color: rgb(206, 199, 199);
 text-decoration: none;}
