@@ -17,10 +17,7 @@ export function App(props) {
       <main>
         <Routes>
           <Route path="/" element={<Landing></Landing>} />
-          <Route
-            path="/movies/:movieId"
-            element={<MovieDetails valor={":movieId"} />}
-          />
+          <Route path="/movies/:movieId" element={<MovieDetails valor={":movieId"} />} />
         </Routes>
       </main>
       <footer></footer>
