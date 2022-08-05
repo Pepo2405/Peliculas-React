@@ -20,7 +20,6 @@ export function App(props) {
           <Route path="/movies/:movieId" element={<MovieDetails valor={":movieId"} />} />
         </Routes>
       </main>
-      <footer></footer>
     </Router>
   );
 }

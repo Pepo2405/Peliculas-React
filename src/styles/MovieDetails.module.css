@@ -17,13 +17,10 @@
 }
 .col {
     max-width: 400px;
-  /* 
-    border-radius: 15px;
-    margin: 15px;
-    height: auto; */
-  height: 100%;
-  object-fit: contain;
-  margin: 5px 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: 5px 10px;
 }
 img {
   border: black solid;
